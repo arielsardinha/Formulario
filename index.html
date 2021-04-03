@@ -10,7 +10,6 @@
 <body>
     <header>
         <h1>Escola Virtual</h1>
-        <h2>Formulario de Pré-Matricula</h2>
     </header>
     <section>
         <form action="" method="GET" id="form">
@@ -38,7 +37,7 @@
             </fieldset>
         </form>
 
-        <fieldset form="form" class="field_matricula">
+        <fieldset form="form" class="field_matricula" id="form_2">
             <legend>informações de matricula</legend>
             <div class="caixa_serie">
                 <label for="ensino">Serie</label>
@@ -105,8 +104,8 @@
             </div>
         </fieldset>
         <div class="caixa_input_submit_limpar">
-            <input type="submit" value="Enviar Formulario">
-            <input type="reset" value="Limpar Formulario">
+            <input form="form" type="submit" value="Enviar Formulario">
+            <input form="form" type="reset" value="Limpar Formulario">
         </div>
     </section>
     <footer>

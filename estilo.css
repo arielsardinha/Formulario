@@ -1,9 +1,18 @@
 body{
     margin: 0px;
+    background-image: url(imagem/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    font-size: 20px;
 }
 /* CABECALHO */
 header{
     text-align: center;
+    color: wheat;
+}
+header h1{
+    margin: 20px;
 }
 /* FORMULARIO GERAL */
 section{
@@ -14,6 +23,14 @@ section{
 }
 fieldset div label,fieldset div input{
     margin: 3px 0px;
+}
+fieldset{
+    background-color: rgba(137, 43, 226, 0.521);
+    border-radius: 5px;
+}
+fieldset legend{
+    background-color: rgba(137, 43, 226, 0.521);
+    border-radius: 10px 10px 0px 0px;
 }
 /* FORMULARIO DADOS PESSOAIS*/
 
@@ -41,11 +58,22 @@ fieldset .caixa_dados_p{
     display: flex;
     flex-direction: column;
 }
+.caixa_atividades_input input:hover{
+    background: yellow;
+    box-shadow: yellow 0px 0px 100px;
+}
 .caixa_input_submit_limpar{
     text-align: center;
 }
 .caixa_input_submit_limpar input{
     margin: 20px;
+    background-color: rgba(137, 43, 226, 0.521);
+    padding: 10px;
+    font-size: large;
+}
+.caixa_input_submit_limpar input:hover{
+    background: yellow;
+    box-shadow: yellow 0px 0px 100px;
 }
 
 
