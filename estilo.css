@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+}
+/* CABECALHO */
+header{
+    text-align: center;
+}
+/* FORMULARIO GERAL */
+section{
+    width:50% ;
+    min-width: 480px;
+    margin: auto;
+    padding: 0px;
+}
+fieldset div label,fieldset div input{
+    margin: 3px 0px;
+}
+/* FORMULARIO DADOS PESSOAIS*/
+
+fieldset .caixa_dados_p{
+    width: 70%;
+    text-align: right;
+    margin: auto;
+}
+/* FORMULARIO DADOS MATRICULA*/
+.field_matricula{
+    display: flex;
+}
+
+.caixa_serie{
+    width: 200px;
+}
+.caixa_turno{
+    width: 20%;
+}
+.caixa_turno p{
+    text-align: center;
+    margin-top: 0px;
+}
+.caixa_atividades_input{
+    display: flex;
+    flex-direction: column;
+}
+.caixa_input_submit_limpar{
+    text-align: center;
+}
+.caixa_input_submit_limpar input{
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
