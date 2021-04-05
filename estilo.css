@@ -33,7 +33,7 @@ fieldset{
 /* FORMULARIO DADOS PESSOAIS*/
 
 fieldset .caixa_dados_p{
-    width: 70%;
+    width: 80%;
     text-align: right;
     margin: auto;
 }
@@ -41,12 +41,11 @@ fieldset .caixa_dados_p{
 .field_matricula{
     display: flex;
 }
-
-.caixa_serie{
-    width: 200px;
-}
 .caixa_turno{
-    width: 20%;
+    width: 25%;
+}
+.caixa_atividades{
+    width: 50%;
 }
 .caixa_turno p{
     text-align: center;
@@ -69,6 +68,7 @@ fieldset .caixa_dados_p{
     background-color: rgba(137, 43, 226, 0.521);
     padding: 10px;
     font-size: large;
+    border-radius: 5px;
 }
 .caixa_input_submit_limpar input:hover{
     background: yellow;
