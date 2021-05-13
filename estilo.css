@@ -69,6 +69,7 @@ fieldset .caixa_dados_p{
     padding: 10px;
     font-size: large;
     border-radius: 5px;
+    cursor: pointer;
 }
 .caixa_input_submit_limpar input:hover{
     background: yellow;
