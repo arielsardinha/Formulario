@@ -7,6 +7,9 @@ body{
     font-size: 20px;
     background-color: #134369;
 }
+input{
+    text-align: center;
+}
 /* CABECALHO */
 header{
     text-align: center;
